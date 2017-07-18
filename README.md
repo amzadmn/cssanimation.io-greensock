@@ -46,3 +46,15 @@ First, you download or grab the CDN URL of TweenMax.js plugin from GreenSock and
 ```
 TweenMax.from(".fadeIn", 1, {alpha:0});
 ```
+### Fadeout Animation(greensock):
+```
+TweenMax.to(".fadeOut", 1, {alpha:0});
+```
+### Move From Left Animation(greensock):
+```
+TweenMax.from(".moveFromLeft", 1, {x:"-100%"});
+```
+### Move From Right Animation(greensock):
+```
+TweenMax.from(".moveFromRight", 1, {x:"100%"});
+```
