@@ -58,3 +58,7 @@ TweenMax.from(".moveFromLeft", 1, {x:"-100%"});
 ```
 TweenMax.from(".moveFromRight", 1, {x:"100%"});
 ```
+### Hu...Hu...  Animation(greensock):
+```
+TweenMax.to(".hu__hu__", 1.5, {y:30, yoyo: true, repeat:-1, ease: Sine.easeInOut});
+```
