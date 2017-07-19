@@ -46,7 +46,7 @@ First, you download or grab the CDN URL of TweenMax.js plugin from GreenSock and
 ```
 TweenMax.from(".fadeIn", 1, {alpha:0});
 ```
-### Fadeout Animation(greensock):
+### FadeOut Animation(greensock):
 ```
 TweenMax.to(".fadeOut", 1, {alpha:0});
 ```
