@@ -62,3 +62,11 @@ TweenMax.from(".moveFromRight", 1, {x:"100%"});
 ```
 TweenMax.to(".hu__hu__", 1.5, {y:30, yoyo: true, repeat:-1, ease: Sine.easeInOut});
 ```
+### Heartbeat Animation(greensock):
+```
+heartbeat = new TimelineMax({repeat:-1});
+heartbeat
+  .to(".heartbeat", 0.2, {css:{scale:1.3}})
+  .to(".heartbeat", 0.16, {css:{scale:1.3}})
+  .to(".heartbeat", 0.2, {css:{scale:1}})
+```
